@@ -49,7 +49,7 @@ A
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-13T18:47:10.668Z  
+**Submitted:** 2026-07-13T18:50:39.882Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -62,14 +62,8 @@ int main() {
 	while(t--){
 	    int a,b;
 	    cin>>a>>b;
-	    if(a>b){
-	        cout<<"a"<<endl;
-	    }
-	    else{
-	        cout<<"b"<<endl;
-	    }
+	    cout<<a-b<<endl;
 	}
-
 }
 
 ```
