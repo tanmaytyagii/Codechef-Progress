@@ -8,12 +8,6 @@ int main() {
 	while(t--){
 	    int a,b;
 	    cin>>a>>b;
-	    if(a>b){
-	        cout<<"a"<<endl;
-	    }
-	    else{
-	        cout<<"b"<<endl;
-	    }
+	    cout<<a-b<<endl;
 	}
-
 }
