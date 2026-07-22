@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    vector<int> hehe(5);
+	    for(int i=0; i<5; i++){
+	        cin>>hehe[i];
+	    }
+	    int count1 = 0;
+	    int count2 = 0;
+	    for(int i =0; i<5; i++){
+	        if(hehe[i]>=60){
+	            count1++;
+	        }
+	        if(hehe[i]>=30){
+	            count2++;
+	        }
+	    }
+	    if(count1==2 && count2 ==4){
+	        cout<<"Pass"<<endl;
+	    }
+	    else{
+	        cout<<"Fail"<<endl;
+	    }
+	}
+
+}
