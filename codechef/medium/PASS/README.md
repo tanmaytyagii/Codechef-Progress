@@ -58,7 +58,7 @@ Fail
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-22T15:52:58.670Z  
+**Submitted:** 2026-07-22T15:53:04.970Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
