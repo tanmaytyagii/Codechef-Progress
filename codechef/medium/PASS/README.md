@@ -58,7 +58,7 @@ Fail
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-22T15:52:53.185Z  
+**Submitted:** 2026-07-22T15:52:58.670Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -83,7 +83,7 @@ int main() {
 	            count2++;
 	        }
 	    }
-	    if(count1==2 && count2 ==4){
+	    if(count1>=2 && count2 >=4){
 	        cout<<"Pass"<<endl;
 	    }
 	    else{
