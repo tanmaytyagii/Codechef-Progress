@@ -20,7 +20,7 @@ int main() {
 	            count2++;
 	        }
 	    }
-	    if(count1==2 && count2 ==4){
+	    if(count1>=2 && count2 >=4){
 	        cout<<"Pass"<<endl;
 	    }
 	    else{
