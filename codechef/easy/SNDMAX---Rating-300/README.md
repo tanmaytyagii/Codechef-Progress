@@ -39,19 +39,24 @@ Output
 
 ## Solution
 
-**Language:** C++  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-07-07T18:56:15.504Z  
+**Submitted:** 2026-07-26T08:22:26.484Z  
 
-```cpp
-#include <bits/stdc++.h>
+```c_cpp
+#include<bits/stdc++.h>
 using namespace std;
 
-int main() {
-	// your code goes here
-	
-
+int main() { 
+    int n;
+    cin >> n;
+    while(n--){
+        int nums[3];
+        cin >> nums[0] >> nums[1] >> nums[2];
+        sort(nums, nums + 3);
+        cout << nums[1] << endl;
+    }
 }
 
 ```
