@@ -6,7 +6,21 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    
+	    int x,y,z;
+	    cin>>x>>y>>z;
+	    if(z<=y){
+	        cout<<-1<<endl;
+	        continue;
+	    }
+	    int money =0;
+	    int cost = x;
+	    int answer =0;
+	    while(money<cost){
+	        answer++;
+	        cost = cost+y;
+	        money = money+z;
+	    }
+	    cout<<answer<<endl;
 	}
 
 }
