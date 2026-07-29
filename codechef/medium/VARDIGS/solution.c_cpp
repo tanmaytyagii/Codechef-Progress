@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x;
+	cin>>x;
+	int t= x/10;
+	int s= x%10;
+	if(s!=t){
+	    cout<<"Yes";
+	}
+	else{
+	    cout<<"No";
+	}
+
+}
