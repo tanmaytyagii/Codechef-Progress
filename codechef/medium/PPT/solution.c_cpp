@@ -3,5 +3,12 @@ using namespace std;
 
 int main() {
 	// your code goes here
+	int n;
+	if(n==20){
+	    cout<<"0";
+	}
+	else {
+	    cout<<20-n;
 
+	}
 }
