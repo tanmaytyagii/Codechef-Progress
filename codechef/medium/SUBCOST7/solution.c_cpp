@@ -1,10 +1,4 @@
-#include <bits/stdc++.h>
-using namespace std;
 
-int main() {
-	// your code goes here
-
-}
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -13,8 +7,8 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int x,y,n;
-	    cin>>x>>y>>n;
+	    int n, x,y;
+	    cin>>n>>x>>y;
 	    if(n<=3){
 	        cout<<n*x<<endl;
 	    }
