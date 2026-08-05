@@ -55,7 +55,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:41:21.326Z  
+**Submitted:** 2026-08-05T14:40:50.279Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -64,7 +64,6 @@ using namespace std;
 int main() {
 	// your code goes here
 	int n;
-	cin>>n;
 	if(n>=20){
 	    cout<<0;
 	}
