@@ -53,7 +53,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:37:00.894Z  
+**Submitted:** 2026-08-05T14:37:20.905Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -62,6 +62,25 @@ using namespace std;
 int main() {
 	// your code goes here
 
+}
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y,n;
+	    cin>>x>>y>>n;
+	    if(n<=3){
+	        cout<<n*x<<endl;
+	    }
+	    else{
+	        cout<<3*x + (n-3)*y <<endl;
+	    }
+	}
+	return 0;
 }
 
 ```
