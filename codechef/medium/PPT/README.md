@@ -55,7 +55,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:38:30.271Z  
+**Submitted:** 2026-08-05T14:40:10.277Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -63,7 +63,14 @@ using namespace std;
 
 int main() {
 	// your code goes here
+	int n;
+	if(n==20){
+	    cout<<"0";
+	}
+	else {
+	    cout<<20-n;
 
+	}
 }
 
 ```
