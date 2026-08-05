@@ -59,7 +59,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:50:46.975Z  
+**Submitted:** 2026-08-05T14:45:05.963Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -67,13 +67,6 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int t;
-	cin>>t;
-	while(t--){
-	    int x1, y1. x2, y2;
-	    cin>>x1>>y1>>x2>>y2;
-	    if()
-	}
 
 }
 
