@@ -53,16 +53,10 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-05T14:37:20.905Z  
+**Submitted:** 2026-08-05T14:38:05.632Z  
 
 ```c_cpp
-#include <bits/stdc++.h>
-using namespace std;
 
-int main() {
-	// your code goes here
-
-}
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -71,8 +65,8 @@ int main() {
 	int t;
 	cin>>t;
 	while(t--){
-	    int x,y,n;
-	    cin>>x>>y>>n;
+	    int n, x,y;
+	    cin>>n>>x>>y;
 	    if(n<=3){
 	        cout<<n*x<<endl;
 	    }
