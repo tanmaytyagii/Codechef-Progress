@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int N;
+        cin >> N;
+
+        int last_digit = N % 10;
+
+        int first_digit = N;
+        while (first_digit >= 10) {
+            first_digit /= 10;
+        }
+
+        cout << first_digit + last_digit << endl;
+    }
+
+    return 0;
+}
