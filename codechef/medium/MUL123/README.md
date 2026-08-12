@@ -73,7 +73,7 @@ It can be verified that using fewer than two operations is not enough to make $N
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T14:57:16.785Z  
+**Submitted:** 2026-08-12T14:59:41.351Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -87,7 +87,7 @@ int main() {
 	    int n;
 	    int count =0;
 	    while(n%3==0){
-	        
+	        if(n+1%3==0 || n+2%3==0|| n+)
 	    }
 	    cout<<count<<endl;
 	}
