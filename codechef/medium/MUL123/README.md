@@ -73,7 +73,7 @@ It can be verified that using fewer than two operations is not enough to make $N
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:01:11.352Z  
+**Submitted:** 2026-08-12T15:02:41.795Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
