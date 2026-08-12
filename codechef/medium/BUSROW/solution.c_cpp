@@ -3,5 +3,15 @@ using namespace std;
 
 int main() {
 	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n, m,x;
+	    cin>>n>>m>>x;
+	    int rowww = (x+m-1)/m;
+	    int fronttt = rowww;
+	    int backkk = n-rowww +1;
+	    cout<<min(fronttt, backkk)<<endl;
+	}
 
 }
