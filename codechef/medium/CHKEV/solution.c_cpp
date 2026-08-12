@@ -5,15 +5,18 @@ int main() {
 	// your code goes here
 	int l, r;
 	cin>>l>>r;
+	bool found = false;
 	for(int i =l; i<=r; i++){
-	    if(i%2==0){
-	        cout<<"Yes";
+	    if(i%2==0 ){
+	        found = true;
 	        break;
 	    }
-	    else{
-	        cout<<"No";
-	        break;
-	    }
+	}
+	if(found){
+	    cout<<"Yes";
+	}
+	else{
+	    cout<<"No";
 	}
 
 }
