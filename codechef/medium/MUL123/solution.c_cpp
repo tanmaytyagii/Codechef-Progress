@@ -14,17 +14,18 @@ int main() {
 	            n = n+1;
 	            count++;
 	        }
-	        else if((n+2)%3==0){
-	            count = count+2;
-	            break;
-	        }
-	        else if((n+5)%3==0){
-	            count++;
-	            break;
-	        }
 	        else{
-	            n= ((n/5)+1)*5;
-	            count++;
+	            
+	            int hehe= ((n/5)+1)*5;
+	            if(hehe%3==0){
+	                n = hehe;
+	                count++;
+	            }
+	            else{
+	                count = count+2;
+	                break;
+	            }
+	            
 	        }
 	    }
 	    cout<<count<<endl;
