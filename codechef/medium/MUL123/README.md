@@ -73,7 +73,7 @@ It can be verified that using fewer than two operations is not enough to make $N
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-12T15:19:02.261Z  
+**Submitted:** 2026-08-12T15:22:31.302Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -92,17 +92,18 @@ int main() {
 	            n = n+1;
 	            count++;
 	        }
-	        else if((n+2)%3==0){
-	            count = count+2;
-	            break;
-	        }
-	        else if((n+5)%3==0){
-	            count++;
-	            break;
-	        }
 	        else{
-	            n= ((n/5)+1)*5;
-	            count++;
+	            
+	            int hehe= ((n/5)+1)*5;
+	            if(hehe%3==0){
+	                n = hehe;
+	                count++;
+	            }
+	            else{
+	                count = count+2;
+	                break;
+	            }
+	            
 	        }
 	    }
 	    cout<<count<<endl;
