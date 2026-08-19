@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T15:34:12.344Z  
+**Submitted:** 2026-08-19T15:41:15.334Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -85,11 +85,10 @@ int main() {
                 sum = sum + nums[i];
                 count++;
             }
-            else if(sum-bada<=k){
+            else if(sum-bada<=k && nums[i]<bada){
                 sum = sum+ nums[i];
                 count++;
             }
-            else if
         }
         cout << count << endl;
     }
