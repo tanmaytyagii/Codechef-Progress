@@ -56,7 +56,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:38:17.346Z  
+**Submitted:** 2026-08-19T14:39:59.834Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -70,13 +70,14 @@ int main() {
 	    int n;
 	    cin>>n;
 	    vector<int> nums(2*n);
-	    for(int i=0; i<n; i++){
+	    for(int i=0; i<2*n; i++){
 	        cin>>nums[i];
 	    }
 	    int ans =0;
 	    for(int i=0; i<n;i++){
-	        ans = ans+
+	        ans = ans+ max(nums[i], nums[2*n-1-i]);
 	    }
+	    cout<<ans<<endl;
 	}
 }
 
