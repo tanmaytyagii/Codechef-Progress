@@ -15,9 +15,15 @@ int main() {
         }
         int sum = 0;
         int count = 1;
+        int bada =0;
         for (int i = 0; i < n; i++) {
             if (sum <= k) {
+                bada = max(bada, nums[i]);
                 sum = sum + nums[i];
+                count++;
+            }
+            else if(sum-bada<=k){
+                sum = sum+ nums[i];
                 count++;
             }
         }
