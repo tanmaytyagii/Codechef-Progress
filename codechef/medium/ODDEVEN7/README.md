@@ -54,7 +54,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:47:14.498Z  
+**Submitted:** 2026-08-19T14:49:13.505Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -81,7 +81,11 @@ int main() {
 	            odd.push_back(nums[i]);
 	        }
 	    }
-	    int ans = min(odd.size(), even.size()) + 1;
+	    int ans =0;
+	    if(odd.size()== even.size()){
+	        ans = 2* (min(odd.size(), even.size()));
+	    }
+	    int ans = 2* (min(odd.size(), even.size())) + 1;
 	    cout<<ans<<endl;
 	}
 
