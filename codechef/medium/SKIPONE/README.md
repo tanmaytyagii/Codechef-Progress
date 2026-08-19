@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T15:41:15.334Z  
+**Submitted:** 2026-08-19T15:42:04.344Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -86,6 +86,7 @@ int main() {
                 count++;
             }
             else if(sum-bada<=k && nums[i]<bada){
+                bada = max(bada, nums[i]);
                 sum = sum+ nums[i];
                 count++;
             }
