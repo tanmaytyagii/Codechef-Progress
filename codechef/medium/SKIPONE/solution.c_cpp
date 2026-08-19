@@ -1,29 +1,12 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
-    // your code goes here
-    int t;
-    cin >> t;
-    while (t--) {
-        int n, k;
-        cin >> n >> k;
-        vector < int > nums(n);
-        for (int i = 0; i < n; i++) {
-            cin >> nums[i];
-        }
-        int sum = 0;
-        int count = 0;
-        int bada =0;
-        for (int i = 0; i < n; i++) {
-            sum = sum+nums[i];
-            bada = max (bada, nums[i]);
-            if(sum-bada <=k){
-                count = i+1;
-            }
-        }
-        cout << count << endl;
-    }
+	// your code goes here
+	int t; 
+	cin>>t;
+	while(t--){
+	    
+	}
 
 }
