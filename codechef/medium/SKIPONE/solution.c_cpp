@@ -23,6 +23,7 @@ int main() {
                 count++;
             }
             else if(sum-bada<=k && nums[i]<bada){
+                bada = max(bada, nums[i]);
                 sum = sum+ nums[i];
                 count++;
             }
