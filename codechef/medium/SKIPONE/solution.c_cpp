@@ -17,15 +17,10 @@ int main() {
         int count = 0;
         int bada =0;
         for (int i = 0; i < n; i++) {
-            if (sum <= k) {
-                bada = max(bada, nums[i]);
-                sum = sum + nums[i];
-                count++;
-            }
-            else if(sum-bada<=k && nums[i]<bada){
-                bada = max(bada, nums[i]);
-                sum = sum+ nums[i];
-                count++;
+            sum = sum+nums[i];
+            bada = max (bada, nums[i]);
+            if(sum-bada <=k){
+                count = i+1;
             }
         }
         cout << count << endl;
