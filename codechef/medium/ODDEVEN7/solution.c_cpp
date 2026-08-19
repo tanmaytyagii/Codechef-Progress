@@ -22,7 +22,11 @@ int main() {
 	            odd.push_back(nums[i]);
 	        }
 	    }
-	    int ans = min(odd.size(), even.size()) + 1;
+	    int ans =0;
+	    if(odd.size()== even.size()){
+	        ans = 2* (min(odd.size(), even.size()));
+	    }
+	    int ans = 2* (min(odd.size(), even.size())) + 1;
 	    cout<<ans<<endl;
 	}
 
