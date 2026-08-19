@@ -22,11 +22,10 @@ int main() {
                 sum = sum + nums[i];
                 count++;
             }
-            else if(sum-bada<=k){
+            else if(sum-bada<=k && nums[i]<bada){
                 sum = sum+ nums[i];
                 count++;
             }
-            else if
         }
         cout << count << endl;
     }
