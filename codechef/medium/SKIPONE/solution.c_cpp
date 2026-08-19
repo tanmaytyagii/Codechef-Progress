@@ -14,7 +14,7 @@ int main() {
             cin >> nums[i];
         }
         int sum = 0;
-        int count = 1;
+        int count = 0;
         int bada =0;
         for (int i = 0; i < n; i++) {
             if (sum <= k) {
@@ -26,6 +26,7 @@ int main() {
                 sum = sum+ nums[i];
                 count++;
             }
+            else if
         }
         cout << count << endl;
     }
