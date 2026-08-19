@@ -16,7 +16,7 @@ Find the maximum number of items you can buy under these constraints.
 
 ### Input Format
 - The first line of input will contain a single integer $T$, denoting the number of test cases.
-- Each test case consists of multiple lines of input. The first line contains $2$ integers $N$ and $K$. The second line contains $N$ integers - $A_1, A_2, \ldots, A_N$.
+- Each test case consists of multiple lines of input. The first line contains a single integer $N$. The second line contains $N$ integers - $A_1, A_2, \ldots, A_N$.
 ### Output Format
 
 For each test case, output on a new line the maximum items you can buy.
@@ -58,38 +58,22 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T15:47:57.725Z  
+**Submitted:** 2026-08-19T14:53:59.988Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
-    // your code goes here
-    int t;
-    cin >> t;
-    while (t--) {
-        int n, k;
-        cin >> n >> k;
-        vector < int > nums(n);
-        for (int i = 0; i < n; i++) {
-            cin >> nums[i];
-        }
-        int sum = 0;
-        int count = 0;
-        int bada =0;
-        for (int i = 0; i < n; i++) {
-            sum = sum+nums[i];
-            bada = max (bada, nums[i]);
-            if(sum-bada <=k){
-                count = i+1;
-            }
-        }
-        cout << count << endl;
-    }
+	// your code goes here
+	int t; 
+	cin>>t;
+	while(t--){
+	    
+	}
 
 }
+
 ```
 
 ---
