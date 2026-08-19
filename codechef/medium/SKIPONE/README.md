@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T15:42:04.344Z  
+**Submitted:** 2026-08-19T15:47:57.725Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -80,15 +80,10 @@ int main() {
         int count = 0;
         int bada =0;
         for (int i = 0; i < n; i++) {
-            if (sum <= k) {
-                bada = max(bada, nums[i]);
-                sum = sum + nums[i];
-                count++;
-            }
-            else if(sum-bada<=k && nums[i]<bada){
-                bada = max(bada, nums[i]);
-                sum = sum+ nums[i];
-                count++;
+            sum = sum+nums[i];
+            bada = max (bada, nums[i]);
+            if(sum-bada <=k){
+                count = i+1;
             }
         }
         cout << count << endl;
