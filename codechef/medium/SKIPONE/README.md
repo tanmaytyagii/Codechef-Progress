@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T14:59:13.542Z  
+**Submitted:** 2026-08-19T15:06:37.538Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -69,7 +69,21 @@ int main() {
 	int t; 
 	cin>>t;
 	while(t--){
-	    
+	    int n,k;
+	    cin>>n>>k;
+	    vector<int> nums(n);
+	    for(int i=0; i<n; i++){
+	        cin>>nums[i];
+	    }
+	    int sum = 0;
+	    int count =1;
+	    for(int i=0; i<n; i++){
+	        if(sum<=k){
+	            sum = sum+nums[i];
+	            count++;
+	        }
+	    }
+	    cout<<count<<endl;
 	}
 
 }
