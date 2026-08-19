@@ -58,7 +58,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T15:33:10.348Z  
+**Submitted:** 2026-08-19T15:34:12.344Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -77,7 +77,7 @@ int main() {
             cin >> nums[i];
         }
         int sum = 0;
-        int count = 1;
+        int count = 0;
         int bada =0;
         for (int i = 0; i < n; i++) {
             if (sum <= k) {
@@ -89,6 +89,7 @@ int main() {
                 sum = sum+ nums[i];
                 count++;
             }
+            else if
         }
         cout << count << endl;
     }
