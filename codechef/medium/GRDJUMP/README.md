@@ -65,7 +65,7 @@ For the given costs, this is optimal.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-26T14:45:16.514Z  
+**Submitted:** 2026-08-26T14:59:23.512Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -73,7 +73,22 @@ using namespace std;
 
 int main() {
 	// your code goes here
-
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b,p,q,r;
+	    cin>>a>>b>>p>>q>>r;
+	    int ans = INT_MAX;
+	    for(int i=0; i<=min(a,b); i++){
+	        int right = a-i;
+	        int up=b-i;
+	        int rightmovess = (right+1)/2;
+	        int upmovess =(up+1)/2;
+	        int cost = i*r+rightmovess*p+upmovess*q;
+	        ans = min(ans, cost);
+	    }
+	    cout<<ans<<endl;
+	}
 }
 
 ```
