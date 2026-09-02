@@ -9,26 +9,26 @@ int main() {
     while (t--) {
         int n, k;
         cin >> n >> k;
-        vector < int > nums;
-        for (int i = 0; i < nums.size(); i++) {
+        vector < int > nums(n);
+        for (int i = 0; i < n; i++) {
             cin >> nums[i];
         }
-        int ptr1 = nums[0];
-        int ptr2 = nums[nums.size() - 1]
+        int ptr1 = 0;
+        int ptr2 = n - 1;
         while (k--) {
-            if (ptr1[] > ptr2[]) {
-                ptr1[] = 0;
+            if (nums[ptr1] > nums[ptr2]) {
+                nums[ptr1] = 0;
                 ptr1++;
-                k--;
+                
             }
             else {
-                ptr2[] = 0;
-                ptr2[]++;
-                k--;
+                nums[ptr2] = 0;
+                ptr2--;
+                
             }
         }
         int sum = 0;
-        for (int i = 0; i < nums.size(); i++) {
+        for (int i = 0; i < n; i++) {
             sum = sum + nums[i];
         }
         cout << sum << endl;
