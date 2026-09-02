@@ -51,7 +51,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:36:32.136Z  
+**Submitted:** 2026-09-02T14:44:14.899Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -59,7 +59,35 @@ using namespace std;
 
 int main() {
 	// your code goes here
-
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,k;
+	    cin>>n>>k;
+	    vector<int> nums;
+	    for(int i=0; i<nums.size(); i++){
+	        cin>>nums[i];
+	    }
+	    int ptr1 = nums[0];
+	    int ptr2= nums[nums.size()-1]
+	    while(k--){
+	    if(ptr1[]>ptr2[]){
+	        ptr1[]=0;
+	        ptr1++;
+	        k--;
+	    }
+	    else{
+	        ptr2[]=0;
+	        ptr2[]++;
+	        k--;
+	    }
+	    }
+	    int sum =0;
+	    for(int i=0; i<nums.size(); i++){
+	        sum = sum + nums[i];
+	    }
+	    cout<<sum<<endl;
+	}
 }
 
 ```
