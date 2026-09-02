@@ -51,7 +51,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:52:05.892Z  
+**Submitted:** 2026-09-02T14:45:03.887Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -65,26 +65,26 @@ int main() {
     while (t--) {
         int n, k;
         cin >> n >> k;
-        vector < int > nums(n);
-        for (int i = 0; i < n; i++) {
+        vector < int > nums;
+        for (int i = 0; i < nums.size(); i++) {
             cin >> nums[i];
         }
-        int ptr1 = 0;
-        int ptr2 = n - 1;
+        int ptr1 = nums[0];
+        int ptr2 = nums[nums.size() - 1]
         while (k--) {
-            if (nums[ptr1] > nums[ptr2]) {
-                nums[ptr1] = 0;
+            if (ptr1[] > ptr2[]) {
+                ptr1[] = 0;
                 ptr1++;
-                
+                k--;
             }
             else {
-                nums[ptr2] = 0;
-                ptr2--;
-                
+                ptr2[] = 0;
+                ptr2[]++;
+                k--;
             }
         }
         int sum = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < nums.size(); i++) {
             sum = sum + nums[i];
         }
         cout << sum << endl;
