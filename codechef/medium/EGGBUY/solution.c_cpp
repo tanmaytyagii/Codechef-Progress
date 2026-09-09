@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int x,y,f;
+	cin>>x>>y>>f;
+	int hehe1= 12*x;
+	int hehe2 = 12*y +f;
+	cout<<min(hehe1,hehe2);
+	
+
+}
