@@ -74,47 +74,53 @@ So, no solution exists.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:38:17.153Z  
+**Submitted:** 2026-09-09T14:39:15.148Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
-	// your code goes here
-	int t;
-	cin>>t;
-	while(t--){
-	int n;
-	cin>>n;
-	vector<int> A(n);
-	vector<int> B(n);
-	for(int i=0; i<n; i++){
-	    cin>>A[i];
-	}
-	for(int i=0; i<n; i++){
-	    cin>>B[i];
-	}
-	int count1 =0;
-	int count2=0;
-	for(int i=0; i<n; i++){
-	    if(A[i]==a){
-	        count1++
-	    }
-	    else{
-	        count2++
-	    }
-	for(int i=0; i<n; i++){
-	    if(B[i]==a){
-	        count1++
-	    }
-	    else{
-	        count2++
-	    }
-	}	    
-	
-}
+        // your code goes here
+        int t;
+        cin >> t;
+        while (t--) {
+            int n;
+            cin >> n;
+            vector < int > A(n);
+            vector < int > B(n);
+            for (int i = 0; i < n; i++) {
+                cin >> A[i];
+            }
+            for (int i = 0; i < n; i++) {
+                cin >> B[i];
+            }
+            int count1 = 0;
+            int count2 = 0;
+            for (int i = 0; i < n; i++) {
+                if (A[i] == a) {
+                    count1++
+                }
+                else {
+                    count2++
+                }
+                for (int i = 0; i < n; i++) {
+                    if (B[i] == a) {
+                        count1++
+                    }
+                    else {
+                        count2++
+                    }
+                }
+                if(count1==count2){
+                    cout<<"Yes"<<endl;
+                }
+                else{
+                    cout<<"No"<<endl;
+                }
 
+            }
 ```
 
 ---
