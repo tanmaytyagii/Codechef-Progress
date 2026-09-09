@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:39:15.148Z  
+**Submitted:** 2026-09-09T14:40:25.148Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -100,17 +100,17 @@ int main() {
             int count2 = 0;
             for (int i = 0; i < n; i++) {
                 if (A[i] == a) {
-                    count1++
+                    count1++;
                 }
                 else {
-                    count2++
+                    count2++;
                 }
                 for (int i = 0; i < n; i++) {
                     if (B[i] == a) {
-                        count1++
+                        count1++;
                     }
                     else {
-                        count2++
+                        count2++;
                     }
                 }
                 if(count1==count2){
@@ -121,6 +121,7 @@ int main() {
                 }
 
             }
+}
 ```
 
 ---
