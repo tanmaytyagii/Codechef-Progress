@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T14:48:16.145Z  
+**Submitted:** 2026-09-09T14:48:20.144Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -90,7 +90,6 @@ int main() {
         cin >> A >> B;
         int count1 = 0;
         int count2 = 0;
-
         for (int i = 0; i < n; i++) {
             if (A[i] == 'a') {
                 count1++;
@@ -109,7 +108,6 @@ int main() {
         }
     }
 
-    return 0;
 }
 ```
 
